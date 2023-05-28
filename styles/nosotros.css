@@ -1,0 +1,199 @@
+
+    #header1 {
+        width: 100%;
+        height: 80px;
+        background: #5ca3a1;
+    }
+    
+    #titulo {
+        text-align: center;
+        padding: 20px 0 20px 0;
+        color: aliceblue;
+        font-size: 50px;
+        
+    }
+    
+    .cont_menu {
+        text-align: center;
+        padding: 30px 50px 0 0;
+        background: #3a7e7c;
+        height: 80px;
+    }
+    
+    .menu {
+        color: #fff;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 50px;
+        border: solid 1px;
+        padding: 10px;
+    }
+    
+    .ArticleServicios {
+        width: 100%;
+        text-align: center;
+        background-color: white;
+    }
+    
+    .Seccion1 {
+        display: block;
+        width: 65%;
+        height: 350px;
+        box-shadow: 0 0 20px -5px #000;
+        background-color:white;
+        margin: auto;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    
+    
+    .header{
+        margin-top: 80px;
+        background-color: white;
+        padding: 10px;
+        text-align: justify;
+        font-size: 4px;
+        text-transform: serif;
+    }
+    
+    .titulo {
+        /*font-family: 'Courier New', Courier, monospace;*/
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    /* #SubtituloSeccio1 {
+        margin: auto;
+        font-size: 30px;
+    
+    } */
+    
+    
+    /* Div IZQUIERDA */
+    .imgSeccion1 {
+        float: left;
+        width: 40%;
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .img-left {
+        width: 100%;
+        border-radius: 50px;
+        height: 240px;
+    }
+    
+    .div-left{
+        float: right;
+        width: 50%;
+        text-align: center;
+        margin-right: 30px;
+        margin-top: 30px;
+    }
+    
+    /* Div DERECHA */
+    .imgSeccion2 {
+        float: right;
+        width: 40%;
+        border-radius: 30px;
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+    
+    .img-right {
+        width: 100%;
+        border-radius: 50px;
+        height: 240px;
+    }
+    .div-right{
+        margin-top: 50px;
+        float: left;
+        width: 50%;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    /* ///////////////////////////////////// */
+    
+    .parrafo_servicio1 {
+        text-align: justify;
+    }
+    .parrafo_servicio2 {
+        text-align: justify;
+    }
+    
+    .footer_principal {
+        background: white;
+        padding: 60px 0 30px 0;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .footer1 {
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 50px;
+        padding: 10px;
+    }
+    
+    .imgface {
+                width: 50px;
+    }
+    
+    
+    .img_galeria{
+    width:200px;
+    }
+    @media (max-width: 800px){
+        .Seccion1 {
+            display: flex;
+            width: 90%;
+            flex-direction: column;
+            box-shadow: 0 0 20px -5px #000;
+            background-color:white;
+            margin-bottom: 20px;
+            border-radius: 30px;
+            height: auto;
+        }
+    /* DIV IZQUIERDA */
+        .imgSeccion1 {
+            width: 100%;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .img-left {
+            width: 90%;
+            border-radius: 50px;
+            height: 240px;
+        }
+        
+        .div-left{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+        /* DIV DEREcHA */
+        .imgSeccion2 {
+            width: 100%;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .img-right {
+            width: 90%;
+            border-radius: 50px;
+            height: 240px;
+        }
+        .div-right{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+        }
+    }
