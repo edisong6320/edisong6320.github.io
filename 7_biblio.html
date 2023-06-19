@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Pet</title>
     <link rel="stylesheet" href="styles/estilos.css">
+    <link rel="stylesheet" href="styles/servicios.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>Mi historia</title>
 </head>
+
 <body>
     <!--        MENU DE NAV.     -->
     <nav>
@@ -19,39 +23,40 @@
             <img src="img/facil4.png" alt="logito" class="logo">
         </a>
         <ul>
-            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="2_nosotros.html">Nosotros</a></li>
             <li><a href="3_servicios.html">Servicios</a></li>
             <li><a href="4_citas.html">Citas</a></li>
             <li><a href="5_contactos.html">Contactos</a></li>
-            <li><a href="7_biblio.html">Mi historia</a></li>
+            <li><a class="active" href="7_biblio.html">Contactos</a></li>
         </ul>
     </nav>
 
-    <!--        CONTENIDO       -->
-    <section class="SeccionInicio">
-        <div class="card-index">
+    <!--Contenido-->
+    <div class="header">
+        <h1 class="titulo"><strong>MI HSITORIA</strong></h1>
+            <header>
+                <marquee  class="mov">
+                    <h2>25 Años de Historia</h2>
+                </marquee>
+            </header><hr>
+    </div>
 
-            <h1 class="titulo_Seccion_I">Veterinaria MY PET</h1><br>
-            <h2 class="texto">25 años cuidando de tu mascota</h2>
-            <br>
-            <p class="p_Seccion_I">La clave del éxito durante este tiempo no ha sido otra que sumar a nuestros dos pilares básicos; formación
-                continua y pasión por el trabajo, el haber podido formar un equipo que ha sabido compartir y llevar aún más
-                lejos esta forma de entender la profesión. Somos tu centro veterinario en Cuenca.</p>
-            <br>
-            <br>
-            <p class="Boton_Cita">
-
-                <a  button class="boton_cita" href="4_citas.html"> Pide tu cita</a>
-            </p>
-            <br>
+    <div class="divServicios">
+        <!-- Imagen izquierda -->
+        <div class="Seccion1">
+            <div class="imgSeccion1">
+                <img class="img-left"  src="img/servi1.jpg" alt="s-1">
+            </div>
+            <div class="div-left">
+                <h1 id="SubtituloSeccio1">EDISON GEOVANNY GUANOQUIZA GUANOQUIZA</h1>
+                <p class="parrafo_servicio1">
+                    Mis pasatimepos favortos son ver peliculas <br>
+                    Soy hijo de Luis Guanoquiza y Maria Guanoquiza <br>
+                    Estudio en la Universidad Tecnica de Cotopaxi
+                </p>
+            </div>
         </div>
-        <div class="btn-index">
-            <a  button class="btn-index-2" href="4_citas.html"> Pide tu cita</a>
-        </div>
-    </section>
-
-
 
 
     <!--        PIE DE PAGINA       -->
@@ -72,7 +77,6 @@
             <div class="box">
                 <h2>SIGUENOS</h2>
                 <div class="red-social">
-                    <!-- <a  href="https://es-la.facebook.com/"> <img class="imgface" src="img/facebook.png" alt="" width="30px"> </a>  -->
                     <a href="https://www.whatsapp.com/?lang=es" target="_blank"> <img src="img/qq.ico" alt="face" ></a>
                     <a href="https://www.instagram.com/" target="_blank"> <img src="img/ins.ico"  alt="insta" ></a>
                     <a href="https://es-la.facebook.com/" target="_blank"> <img src="img/facz.ico"  alt="whats" ></a>
@@ -84,6 +88,5 @@
             <small>&copy; 2022 <b>los chicos dulces</b> - Todos los Derechos Reservados.</small>
         </div>
     </footer>
-
 </body>
 </html>
